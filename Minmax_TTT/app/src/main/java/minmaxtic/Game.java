@@ -47,6 +47,7 @@ public class Game implements ActionListener {
     titlePanel.add(textField);
     frame.add(titlePanel, BorderLayout.NORTH);
     frame.add(button);
+    frame.setVisible(true);
   }
   public String checkWinner() {
     for (int i = 0; i < 8; i++) {
